@@ -1,0 +1,22 @@
+/* See https://developers.google.com/cast/docs/styled_receiver */
+
+.background {
+  background: center no-repeat url(background.png);
+}
+
+.logo {
+  background-image: url(logo.png);
+}
+
+.progressBar {
+  background-color: rgb(167,205,234);
+}
+
+.splash {
+  background-image: url(splash.png);
+}
+
+.watermark {
+  background-image: url(watermark.png);
+  background-size: 57px 57px;
+}
