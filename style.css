@@ -1,11 +1,11 @@
 /* See https://developers.google.com/cast/docs/styled_receiver */
 
 .background {
-  background: center no-repeat url(background.png);
+  background: #003C7A url('https://fraigo.github.io/ldsplayer-skin/background.png') center no-repeat ;
 }
 
 .logo {
-  background-image: url(logo.png);
+  background-image: url('https://fraigo.github.io/ldsplayer-skin/logo.png');
 }
 
 .progressBar {
@@ -17,6 +17,6 @@
 }
 
 .watermark {
-  background-image: url(watermark.png);
+  background-image: url('https://fraigo.github.io/ldsplayer-skin/watermark.png');
   background-size: 57px 57px;
 }
