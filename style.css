@@ -20,3 +20,15 @@
   background-image: url('https://fraigo.github.io/ldsplayer-skin/watermark.png');
   background-size: 57px 57px;
 }
+
+.audioPlaybackBackgroundScrim{
+  background: #003C7A;
+}
+
+.player[state='playing'] .controls{
+  background-image: url('https://fraigo.github.io/ldsplayer-skin/logo.png');
+  background-repeat: no-repeat;
+  background-size: 50% 50%;
+  background-position: center;
+}
+
