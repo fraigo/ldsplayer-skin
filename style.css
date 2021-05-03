@@ -22,7 +22,7 @@
 }
 
 .audioPlaybackBackgroundScrim{
-  background: #003C7A;
+  background-color: rgba(0, 60, 122, 0.8);
 }
 
 .player[state='playing'] .controls{
