@@ -21,8 +21,8 @@
   background-size: 57px 57px;
 }
 
-.audioPlaybackBackgroundScrim, .player[mediaCategory='AUDIO']:not([displayType='touch']) .audioPlaybackBackgroundScrim, .player[isRemoteControl='true']:not([displayType='touch']) .audioPlaybackBackgroundScrim{
-  background-color: rgba(0, 60, 122, 0.8);
+.player[mediaCategory='AUDIO']:not([displayType='touch']) .audioPlaybackBackgroundScrim, .player[isRemoteControl='true']:not([displayType='touch']) .audioPlaybackBackgroundScrim{
+  background-color: rgba(0, 60, 122, 0.8) !important;
 }
 
 .player[state='playing'] .controls{
