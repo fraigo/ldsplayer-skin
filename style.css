@@ -13,7 +13,7 @@
 }
 
 .splash {
-  background-image: url(splash.png);
+  background-image: url('https://fraigo.github.io/ldsplayer-skin/splash.png');
 }
 
 .watermark {
