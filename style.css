@@ -21,7 +21,7 @@
   background-size: 57px 57px;
 }
 
-.player[mediaCategory='AUDIO']:not([displayType='touch']) .audioPlaybackBackgroundScrim, .player[isRemoteControl='true']:not([displayType='touch']) .audioPlaybackBackgroundScrim{
+.player[mediaCategory='AUDIO'] .audioPlaybackBackgroundScrim, .player[isRemoteControl='true'] .audioPlaybackBackgroundScrim{
   background-color: rgba(0, 60, 122, 0.8) !important;
 }
 
@@ -30,5 +30,9 @@
   background-repeat: no-repeat;
   background-size: 50% 50%;
   background-position: center;
+}
+
+.tv-overlay[data-media-category='AUDIO'] .audioPlaybackBackgroundScrim{
+  background-color: rgba(0, 60, 122, 0.8) !important;
 }
 
